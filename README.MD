@@ -1,4 +1,3 @@
-````markdown
 # Affinity Dashboard
 
 Web application for predicting molecular binding affinities from CSV/TSV input data.  
@@ -43,9 +42,9 @@ The interface displays summary statistics, visualizations, and a detailed result
 cd "affinity-dashboard copy"
 npm install
 npm run dev
-````
+```
 
-* Installs frontend dependencies and starts development server.
+- Installs frontend dependencies and starts development server.
 
 ### Backend (Python)
 
@@ -58,16 +57,16 @@ source .venv/bin/activate            # macOS / Linux
 pip install -r requirements.txt
 ```
 
-* Creates an isolated Python environment.
-* Installs all backend and model inference dependencies.
+- Creates an isolated Python environment.
+- Installs all backend and model inference dependencies.
 
 ---
 
 ## Model
 
-* `trin.y` file contains the trained model used for inference.
-* Place it in the backend's model directory before running predictions.
-* Ensure Python environment matches the dependencies used during model training.
+- `trin.y` file contains the trained model used for inference.
+- Place it in the backend's model directory before running predictions.
+- Ensure Python environment matches the dependencies used during model training.
 
 ---
 
@@ -78,6 +77,3 @@ pip install -r requirements.txt
 3. Open the app in browser.
 4. Upload CSV/TSV dataset.
 5. Click **Predict** to run inference and view results.
-
-```
-```
