@@ -1,0 +1,19 @@
+{
+  "n": 10,
+  "pAff_mean": 8.157957315444946,
+  "pAff_std": 0.4663539646736527,
+  "uncertainty_mean": 0.2682340368628502,
+  "strength_counts": {
+    "very strong": 0,
+    "strong": 6,
+    "moderate": 4,
+    "weak": 0,
+    "very weak": 0
+  },
+  "fraction_clipped_any": 0.0,
+  "duplicates": [],
+  "checkpoint": "best_model#30.pt",
+  "device": "cpu",
+  "max_len_smi": 200,
+  "max_len_prot": 1000
+}
